@@ -1,0 +1,149 @@
+
+.row--container{
+    height: 89%;
+}
+.middle--container{
+    background-color: #4d5055;
+    
+}
+.bottom--container{
+    height: 10vh;
+    margin-bottom: 0px;
+}
+
+
+.no-border-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .no-border-item {
+    border: none;
+    background-color: transparent;
+  }
+  
+
+  
+  .col-2 {
+    transition: width 0.3s ease; 
+  }
+
+  .messages--cont{
+    height: 81vh;
+  }
+
+  .leave-modal {
+    position: fixed;
+    bottom: 5%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    z-index: 1000;
+  }
+  
+  
+  .leave-modal button {
+    margin: 5px;
+  }
+
+  .badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+  
+
+  .admin-modal{
+    position: fixed;
+    
+    bottom: -150px;
+    width: 200px;
+    
+    height: 450px;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    
+    z-index: 1000;
+    overflow-y: scroll;
+  }
+  .admin-modal button{
+    font-size: 14px;
+  }
+
+  
+  
+  .custom-hover:hover {
+    background-color: #0056b3 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+
+  .send--msg{
+    bottom: 0% !important;
+  }
+  .messages--cont{
+    max-height: 380px !important;
+    overflow-y: scroll;
+  }
+  .center--class{
+    top: 200px !important;
+    right: 400px;
+  }
+  
+  .schedule{
+    height: 100vh;
+    
+  }
+
+
+  .spinner-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.8); 
+  }
+  
+  .spinner {
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid #000; 
+    border-radius: 50%;
+    width: 40px; 
+    height: 40px; 
+    animation: spin 1s linear infinite; 
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+  @media(max-width:1080px){
+    .bottom--container{
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+    .bottom--container button {
+      font-size: 12px !important;
+    }
+    .middle-container button{
+      gap: 0px !important;
+      padding: 0px;
+      margin: 0px;
+
+    }
+    .last-col button{
+      padding: 0px !important;
+      margin: 0px !important;
+    }
+    .center--class{
+      right: 300px;
+    }
+  }
+  
+  
