@@ -1,0 +1,56 @@
+.home{
+    width: 100%;
+}
+.top--section{
+    height: 35px;
+}
+.top--section img{
+    width: 30px;
+    height: 30px;
+}
+.main--section{
+    height: 94vh;
+}
+.main--section img{
+    width: 150px;
+}
+.main--section p{
+    font-size: 50px;
+    color: white;
+    left: 40%;
+    top: 15%;
+    font-weight: 500;
+}
+.btns{
+    width: 40%;
+    border-radius: 5px;
+}
+.btns .btn{
+    width: 100%;
+}
+.bt:hover{
+    background-color: lightgray !important;
+}
+.btn--primary:hover{
+    background-color: blue !important;
+}
+@media(max-width:900px){
+    .btns{
+        width: 60%;
+    }
+    .main--section p{
+        left: 38%;
+    }
+}
+@media(max-width:700px){
+    .btns{
+        width: 70%;
+    }
+    .main--section p{
+        left: 35%;
+    }
+}
+
+.joining{
+    width: 50%;
+}

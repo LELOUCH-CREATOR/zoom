@@ -1,0 +1,32 @@
+.video-chat-room {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.room {
+    margin-top: 20px;
+}
+
+.messages {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.remote-videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+input {
+    margin: 5px;
+}
+
+button {
+    margin: 5px;
+}

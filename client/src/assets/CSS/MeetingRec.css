@@ -1,0 +1,37 @@
+.recording-notification {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .blinking-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 5px;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+
+.notification {
+    background-color: #f9c74f;
+    color: #000;
+    padding: 3px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 280px;
+  }
+  
+  
+  
